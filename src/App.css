@@ -1,7 +1,5 @@
-.App-logo {
+.App .img-fluid {
   max-width: 200px;
-  position: block;
-  margin: 10px auto;
 }
 .App-header {
   text-align: center;
