@@ -1,14 +1,16 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
 
 import "./Dictionary.css";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState(null);
   let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
 
   function handleResponse(response) {
-    console.log(response.data[0]);
+    setResults(response.data[0]);
     return "";
   }
 
@@ -33,6 +35,7 @@ export default function Dictionary() {
           className="btn btn-primary shadow"
         />
       </form>
+      <Results results={results} />
     </div>
   );
 }
