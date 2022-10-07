@@ -1,4 +1,4 @@
-.App .img-fluid {
+.App .App-logo {
   max-width: 200px;
 }
 .App-header {
@@ -11,4 +11,7 @@
 a {
   color: #6c62ff !important;
   text-decoration: none !important;
+}
+.App .container {
+  max-width: 65%;
 }

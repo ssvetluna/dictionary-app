@@ -11,13 +11,13 @@
   text-align: left;
   margin: 20px 0;
   background-color: white;
-  padding: 30px;
+  padding: 40px;
   border-radius: 9px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
 }
 .Dictionary input {
   width: 100%;
-  padding: 6px 10px;
+  padding: 20px 10px;
   border: 1px solid #ddd;
   border-radius: 9px;
   color: #333;
