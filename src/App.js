@@ -1,4 +1,3 @@
-import dictionary from "./dictionary.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -15,6 +14,7 @@ export default function App() {
             <a
               href="https://github.com/ssvetluna/dictionary-app"
               target="_blanck"
+              rel="noreferrer"
             >
               Open-source code on GitHub
             </a>{" "}
