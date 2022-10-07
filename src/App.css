@@ -1,3 +1,12 @@
+@media (max-width: 960px) {
+  .App .container {
+    max-width: 95%;
+  }
+}
+a {
+  color: #6c62ff !important;
+  text-decoration: none !important;
+}
 .App .App-logo {
   max-width: 200px;
 }
@@ -8,10 +17,7 @@
 .App {
   background-color: #e4e3f9;
 }
-a {
-  color: #6c62ff !important;
-  text-decoration: none !important;
-}
+
 .App .container {
   max-width: 65%;
 }

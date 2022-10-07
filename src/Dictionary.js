@@ -43,7 +43,7 @@ export default function Dictionary() {
       <div className="Dictionary">
         <section>
           <header className="App-header">
-            <img src={dictionary} className="App-logo" alt="logo" />
+            <img src={dictionary} className="App-logo img-fluid" alt="logo" />
           </header>
           <br />
 
