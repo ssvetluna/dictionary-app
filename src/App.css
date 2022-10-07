@@ -3,4 +3,12 @@
 }
 .App-header {
   text-align: center;
+  background-color: white;
+}
+.App {
+  background-color: #e4e3f9;
+}
+a {
+  color: #6c62ff !important;
+  text-decoration: none !important;
 }
